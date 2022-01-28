@@ -7,4 +7,12 @@ $text-color: #cccfff;
     a{
         color: $text-color;
     }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            padding-bottom: .3em;
+        }
+    }
 }

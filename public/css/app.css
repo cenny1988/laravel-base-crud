@@ -7,3 +7,11 @@
   color: #cccfff;
 }
 
+* ul {
+  list-style-type: none;
+}
+
+* ul li {
+  padding-bottom: 0.3em;
+}
+

@@ -1,4 +1,13 @@
 @extends('layouts.main-layout')
 @section('content')
-    main section fumetti
+    <h3>Lista fumetti disponibili:</h3>
+    <ul>
+        @foreach ($comics as $comic)
+            <a href="#">
+                <li>
+                    {{ $comic->title }}
+                </li>
+            </a>
+        @endforeach
+    </ul>
 @endsection
