@@ -1,0 +1,10 @@
+$bg-color: #8F3A84; 
+$text-color: #cccfff;
+*{
+    background-color: $bg-color;
+    color: $text-color;
+
+    a{
+        color: $text-color;
+    }
+}
