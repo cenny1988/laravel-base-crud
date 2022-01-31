@@ -4,11 +4,12 @@
     <a href=" {{ route('create') }} ">Add New</a>
     <ul>
         @foreach ($comics as $comic)
-            <a href=" {{Route('show', $comic->id)}} ">
-                <li>
-                    {{ $comic->title }}
-                </li>
-            </a>
+            <li>
+                <a href=" {{Route('show', $comic->id)}} ">
+                {{ $comic->title }}
+                </a>
+                - <a href=" {{route('edit', $comic -> id)}} ">EDIT</a>
+            </li>
         @endforeach
     </ul>
 @endsection
