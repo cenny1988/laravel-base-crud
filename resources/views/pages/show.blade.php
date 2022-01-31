@@ -3,5 +3,7 @@
     <h3>Details Comic</h3>
     <h4>{{ $comic->title }}</h4>
     Author: {{ $comic->author }} - Date of release: {{ $comic->release_date }} <br>
-    Pages: {{ $comic->pages }} 
+    Pages: {{ $comic->pages }} <br>
+
+    <a href=" {{route('home')}} ">HOME</a>
 @endsection
